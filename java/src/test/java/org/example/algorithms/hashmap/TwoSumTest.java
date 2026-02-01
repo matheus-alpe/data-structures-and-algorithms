@@ -2,34 +2,15 @@ package org.example.algorithms.hashmap;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class TwoSumTest {
 
     @Test
-    void testCase1() {
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
-        int[] result = TwoSum.twoSum(nums, target);
-        assertEquals(0, result[0]);
-        assertEquals(1, result[1]);
-    }
-
-    @Test
-    void testCase2() {
-        int[] nums = {3, 2, 4};
-        int target = 6;
-        int[] result = TwoSum.twoSum(nums, target);
-        assertEquals(1, result[0]);
-        assertEquals(2, result[1]);
-    }
-
-    @Test
-    void testCase3() {
-        int[] nums = {3, 3};
-        int target = 6;
-        int[] result = TwoSum.twoSum(nums, target);
-        assertEquals(0, result[0]);
-        assertEquals(1, result[1]);
+    void testCase() {
+        assertArrayEquals(new int[]{0, 1}, TwoSum.twoSum(new int[]{2, 7, 11, 15}, 9));
+        assertArrayEquals(new int[]{1, 2}, TwoSum.twoSum(new int[]{3, 2, 4}, 6));
+        assertArrayEquals(new int[]{0, 1}, TwoSum.twoSum(new int[]{3, 3}, 6));
+        assertArrayEquals(new int[]{}, TwoSum.twoSum(new int[]{3, 3}, 9));
     }
 }
