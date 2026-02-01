@@ -2,7 +2,7 @@
 
 A collection of data structures and algorithms implementations in different programming languages. Using LeetCode problems as practice.
 
-## Leetcode Problems
+## LeetCode Problems
 
 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
-2. ... (more problems to be added)
+2. [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)
