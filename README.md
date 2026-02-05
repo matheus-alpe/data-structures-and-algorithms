@@ -9,4 +9,6 @@ A collection of data structures and algorithms implementations in different prog
 3. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 4. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 5. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
-6. [House Robber](https://leetcode.com/problems/house-robber/description/)
+6. DP
+    1. [House Robber](https://leetcode.com/problems/house-robber/description/)
+    2. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
