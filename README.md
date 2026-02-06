@@ -12,3 +12,4 @@ A collection of data structures and algorithms implementations in different prog
 6. DP
     1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
     2. [House Robber](https://leetcode.com/problems/house-robber/description/)
+7. [Palindrome](https://leetcode.com/problems/valid-palindrome/)
