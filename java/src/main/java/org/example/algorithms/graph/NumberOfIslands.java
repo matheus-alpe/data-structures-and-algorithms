@@ -63,12 +63,12 @@ public class NumberOfIslands {
 
         int islands = 0;
 
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
+        for (int x = 0; x < grid.length; x++) {
+            for (int y = 0; y < grid[0].length; y++) {
 
-                if (grid[i][j] == '1') {
+                if (grid[x][y] == '1') {
                     islands++;
-                    dfs(grid, i, j);
+                    dfs(grid, x, y);
                 }
             }
         }
@@ -76,22 +76,22 @@ public class NumberOfIslands {
         return islands;
     }
 
-    private void dfs(char[][] grid, int i, int j) {
+    private void dfs(char[][] grid, int x, int y) {
 
         // Boundary or water check
-        if (i < 0 || j < 0 ||
-                i >= grid.length || j >= grid[0].length ||
-                grid[i][j] == '0') {
+        if (x < 0 || y < 0 ||
+                x >= grid.length || y >= grid[0].length ||
+                grid[x][y] == '0') {
             return;
         }
 
         // Mark visited
-        grid[i][j] = '0';
+        grid[x][y] = '0';
 
         // Explore 4 directions
-        dfs(grid, i + 1, j); // down
-        dfs(grid, i - 1, j); // up
-        dfs(grid, i, j + 1); // right
-        dfs(grid, i, j - 1); // left
+        dfs(grid, x + 1, y); // down
+        dfs(grid, x - 1, y); // up
+        dfs(grid, x, y + 1); // right
+        dfs(grid, x, y - 1); // left
     }
 }

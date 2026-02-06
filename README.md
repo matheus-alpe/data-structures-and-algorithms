@@ -10,6 +10,9 @@ A collection of data structures and algorithms implementations in different prog
 4. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 5. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 6. DP
-    1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+    1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
     2. [House Robber](https://leetcode.com/problems/house-robber/description/)
-7. [Palindrome](https://leetcode.com/problems/valid-palindrome/)
+7. [Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
+8. [Min Stack](https://leetcode.com/problems/min-stack/description/)
+9. [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
+10. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
