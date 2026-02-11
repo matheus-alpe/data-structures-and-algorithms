@@ -3,7 +3,7 @@ package org.example.algorithms.sliding_window;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ContainsDuplicate {
+public class ContainsNearbyDuplicate {
     // https://leetcode.com/problems/contains-duplicate-ii/description
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
         int left = 0;
